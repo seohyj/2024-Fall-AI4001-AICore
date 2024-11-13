@@ -32,6 +32,6 @@ def capture_frames(video_path, output_dir, interval=1):
     print(f"Images saved to {output_dir}")
 
 # 사용 예제
-video_path = "your_video.mp4"  # 분석할 비디오 파일 경로
-output_dir = "captured_frames"  # 캡처한 이미지 저장 디렉토리
+video_path = "./1.mp4"  # 분석할 비디오 파일 경로
+output_dir = "./captured_frames"  # 캡처한 이미지 저장 디렉토리
 capture_frames(video_path, output_dir)
